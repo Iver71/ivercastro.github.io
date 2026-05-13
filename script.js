@@ -1,7 +1,5 @@
-function openProject(projectName){
+function openProject(url){
 
-    alert(
-        window.open(url, "_blank");
-    );
+    window.open(url, "_blank");
 
 }
