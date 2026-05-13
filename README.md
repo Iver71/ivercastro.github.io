@@ -1,1 +1,33 @@
 # ivercastro.github.io
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mi Portafolio</title>
+</head>
+
+<body>
+
+    <h1>Iver Castro</h1>
+
+    <h2>Portafolio de Data Analytics</h2>
+
+    <p>
+        Bienvenido a mi página web de proyectos de análisis de datos,
+        Power BI y Machine Learning.
+    </p>
+
+    <hr>
+
+    <h2>Mis Proyectos</h2>
+
+    <h3>Dashboard Ecommerce</h3>
+
+    <p>
+        Dashboard realizado en Power BI para análisis de ventas.
+    </p>
+
+</body>
+
+</html>
