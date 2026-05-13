@@ -1,7 +1,7 @@
 function showMessage(projectName){
 
     alert(
-        "Abrir proyecto: " + projectName
+        window.open(url, "_blank");
     );
 
 }
