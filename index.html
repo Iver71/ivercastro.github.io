@@ -10,7 +10,6 @@
 
     <title>Iver Castro | Portafolio</title>
 
-    <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
 
 </head>
@@ -29,92 +28,94 @@
 
     </header>
 
-    <!-- MAIN -->
+    <!-- CONTENIDO -->
 
-    <div class="container">
+    <main class="container">
 
-        <!-- ABOUT -->
+        <!-- SOBRE MI -->
 
         <section class="about">
 
             <h2>Sobre mí</h2>
 
             <p>
-                Bienvenido a mi portafolio de proyectos de análisis de datos,
-                Power BI, Machine Learning y AI.
+                Bienvenido a mi página web de proyectos de análisis de datos,
+                Power BI y Machine Learning.
             </p>
 
-            <br>
-
             <p>
-                Me interesa desarrollar soluciones de análisis de datos,
-                visualización, modelos predictivos y sistemas basados en IA.
+                Me interesa desarrollar soluciones de análisis,
+                visualización y modelos predictivos.
             </p>
 
         </section>
 
-        <!-- PROJECTS -->
+        <!-- PROYECTOS -->
 
-        <h2 class="projects-title">
-            Mis Proyectos
-        </h2>
+        <section>
 
-        <div class="projects-grid">
+            <h2 class="section-title">
+                Mis Proyectos
+            </h2>
 
-            <!-- CARD 1 -->
+            <div class="projects-grid">
 
-            <div class="card">
+                <!-- PROYECTO 1 -->
 
-                <h3>Dashboard Ecommerce</h3>
+                <div class="card">
 
-                <p>
-                    Dashboard realizado en Power BI para análisis
-                    de ventas y rentabilidad.
-                </p>
+                    <h3>Dashboard Ecommerce</h3>
 
-                <button onclick="showMessage('Dashboard Ecommerce')">
-                    Ver Proyecto
-                </button>
+                    <p>
+                        Dashboard realizado en Power BI
+                        para análisis de ventas y rentabilidad.
+                    </p>
+
+                    <button onclick="showMessage('Dashboard Ecommerce')">
+                        Ver Proyecto
+                    </button>
+
+                </div>
+
+                <!-- PROYECTO 2 -->
+
+                <div class="card">
+
+                    <h3>Predicción de Mora</h3>
+
+                    <p>
+                        Modelo de Machine Learning
+                        para riesgo crediticio.
+                    </p>
+
+                    <button onclick="showMessage('Predicción de Mora')">
+                        Ver Proyecto
+                    </button>
+
+                </div>
+
+                <!-- PROYECTO 3 -->
+
+                <div class="card">
+
+                    <h3>Sistema RAG</h3>
+
+                    <p>
+                        Proyecto usando embeddings,
+                        FAISS y modelos LLM.
+                    </p>
+
+                    <button onclick="showMessage('Sistema RAG')">
+                        Ver Proyecto
+                    </button>
+
+                </div>
 
             </div>
 
-            <!-- CARD 2 -->
+        </section>
 
-            <div class="card">
-
-                <h3>Predicción de Mora</h3>
-
-                <p>
-                    Modelo de Machine Learning para evaluación
-                    de riesgo crediticio.
-                </p>
-
-                <button onclick="showMessage('Predicción de Mora')">
-                    Ver Proyecto
-                </button>
-
-            </div>
-
-            <!-- CARD 3 -->
-
-            <div class="card">
-
-                <h3>Sistema RAG</h3>
-
-                <p>
-                    Proyecto RAG usando embeddings, FAISS
-                    y modelos ligeros de lenguaje.
-                </p>
-
-                <button onclick="showMessage('Sistema RAG')">
-                    Ver Proyecto
-                </button>
-
-            </div>
-
-        </div>
-
-        <!-- SKILLS -->
+        <!-- TECNOLOGIAS -->
 
         <section class="skills">
 
@@ -122,27 +123,25 @@
 
             <div class="skills-list">
 
-                <div class="skill">Python</div>
+                <span class="skill">Python</span>
 
-                <div class="skill">Power BI</div>
+                <span class="skill">Power BI</span>
 
-                <div class="skill">Pandas</div>
+                <span class="skill">Pandas</span>
 
-                <div class="skill">Scikit-learn</div>
+                <span class="skill">Scikit-learn</span>
 
-                <div class="skill">SQL</div>
+                <span class="skill">SQL</span>
 
-                <div class="skill">FAISS</div>
+                <span class="skill">FAISS</span>
 
-                <div class="skill">Machine Learning</div>
-
-                <div class="skill">GCP</div>
+                <span class="skill">GCP</span>
 
             </div>
 
         </section>
 
-    </div>
+    </main>
 
     <!-- FOOTER -->
 
@@ -154,7 +153,6 @@
 
     </footer>
 
-    <!-- JAVASCRIPT -->
     <script src="script.js"></script>
 
 </body>
