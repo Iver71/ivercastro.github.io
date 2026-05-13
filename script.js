@@ -1,4 +1,4 @@
-function showMessage(projectName){
+function openProject(projectName){
 
     alert(
         window.open(url, "_blank");
