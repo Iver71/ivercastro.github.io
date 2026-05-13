@@ -1,30 +1,161 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-    <title>Mi Portafolio</title>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Iver Castro | Portafolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
 
-    <h1>Iver Castro</h1>
+    <!-- HEADER -->
 
-    <h2>Portafolio de Data Analytics</h2>
+    <header>
 
-    <p>
-        Bienvenido a mi página web de proyectos de análisis de datos,
-        Power BI y Machine Learning.
-    </p>
+        <h1>Iver Castro</h1>
 
-    <hr>
+        <p>
+            Portafolio de Data Analytics & Machine Learning
+        </p>
 
-    <h2>Mis Proyectos</h2>
+    </header>
 
-    <h3>Dashboard Ecommerce</h3>
+    <!-- MAIN -->
 
-    <p>
-        Dashboard realizado en Power BI para análisis de ventas.
-    </p>
+    <div class="container">
+
+        <!-- ABOUT -->
+
+        <section class="about">
+
+            <h2>Sobre mí</h2>
+
+            <p>
+                Bienvenido a mi portafolio de proyectos de análisis de datos,
+                Power BI, Machine Learning y AI.
+            </p>
+
+            <br>
+
+            <p>
+                Me interesa desarrollar soluciones de análisis de datos,
+                visualización, modelos predictivos y sistemas basados en IA.
+            </p>
+
+        </section>
+
+        <!-- PROJECTS -->
+
+        <h2 class="projects-title">
+            Mis Proyectos
+        </h2>
+
+        <div class="projects-grid">
+
+            <!-- CARD 1 -->
+
+            <div class="card">
+
+                <h3>Dashboard Ecommerce</h3>
+
+                <p>
+                    Dashboard realizado en Power BI para análisis
+                    de ventas y rentabilidad.
+                </p>
+
+                <button onclick="showMessage('Dashboard Ecommerce')">
+                    Ver Proyecto
+                </button>
+
+            </div>
+
+            <!-- CARD 2 -->
+
+            <div class="card">
+
+                <h3>Predicción de Mora</h3>
+
+                <p>
+                    Modelo de Machine Learning para evaluación
+                    de riesgo crediticio.
+                </p>
+
+                <button onclick="showMessage('Predicción de Mora')">
+                    Ver Proyecto
+                </button>
+
+            </div>
+
+            <!-- CARD 3 -->
+
+            <div class="card">
+
+                <h3>Sistema RAG</h3>
+
+                <p>
+                    Proyecto RAG usando embeddings, FAISS
+                    y modelos ligeros de lenguaje.
+                </p>
+
+                <button onclick="showMessage('Sistema RAG')">
+                    Ver Proyecto
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- SKILLS -->
+
+        <section class="skills">
+
+            <h2>Tecnologías</h2>
+
+            <div class="skills-list">
+
+                <div class="skill">Python</div>
+
+                <div class="skill">Power BI</div>
+
+                <div class="skill">Pandas</div>
+
+                <div class="skill">Scikit-learn</div>
+
+                <div class="skill">SQL</div>
+
+                <div class="skill">FAISS</div>
+
+                <div class="skill">Machine Learning</div>
+
+                <div class="skill">GCP</div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            © 2026 Iver Castro | Data Analytics Portfolio
+        </p>
+
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
 
 </body>
 
